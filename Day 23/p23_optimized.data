@@ -1,0 +1,26 @@
+cpy a b
+dec b
+cpy a d
+nop
+nop
+mul b a
+nop
+nop
+nop
+nop
+dec b
+cpy b c
+nop
+add b c
+nop
+nop
+tgl c
+nop
+jnz 1 -16
+cpy 84 c
+jnz 80 d
+inc a
+inc d
+jnz d -2
+inc c
+jnz c -5
